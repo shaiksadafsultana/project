@@ -1001,7 +1001,7 @@ figure.effect-chico:hover p {
     transform: scale(1);
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 550) {
     .grid figure {
         width: 50%;
     }   
@@ -1011,7 +1011,7 @@ figure.effect-chico:hover p {
     }
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 550) {
 
     .grid figure {
         width: 100%;
@@ -1062,8 +1062,6 @@ cards
 .news p {
     margin-bottom: 20px;
 }
-
-
 /* ==========================================================================
  footer 
 ========================================================================== */
@@ -1091,22 +1089,31 @@ footer ul li a {
 }
 /*--media--*/
 
-@media (max-width:550px) {
+@media (max-width:450px) {
+    .nav0{
+        margin-left: 10%;
+    }
+    .el1.form-section{
+        margin-right: 5%;
+    }
+    .nav{
+        gap: 3em;
+    }
     .p1{
         font-size: 90px;
-        margin-left:40%;
+        margin-left:30%;
     }
     .p{
         font-size: 90px;
-        margin-left:45%;
+        margin-left:40%;
     }
     .q{
         font-size: 90px;
-        margin-left:43%;
+        margin-left:37%;
     }
     .h1{
         font-size: 33px;
-        margin-left:35%;
+        margin-left:27%;
     }
     .el2{
         flex-direction: column;
@@ -1120,7 +1127,7 @@ footer ul li a {
         width:180%;
     }
     .el3a{
-        font-size:100px;
+        font-size:88px;
     }
     .para{
         font-size:13px;   
@@ -1132,7 +1139,6 @@ footer ul li a {
         width:8%;
         margin-left: 42%;
     }
-
     .blog .left .news > img, .blog .right .news > img {
         float: none;
         width: 100%;
@@ -1149,6 +1155,10 @@ footer ul li a {
     .row.blog {
         background: none;
     }
+    .grid{
+        grid-template-columns: ;
+    }
+
     .mb10{
         margin-bottom: 10px;
     
@@ -1164,8 +1174,7 @@ footer ul li a {
         padding-top: 10px;
         border-bottom: 1px solid;
         padding-bottom: 10px;
+    }}
+    .dark-wrapper{
+     margin-top: 10%;
     }
-}
-.dark-wrapper{
-    margin-top: 10%;
-}
