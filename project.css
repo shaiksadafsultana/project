@@ -1001,7 +1001,7 @@ figure.effect-chico:hover p {
     transform: scale(1);
 }
 
-@media screen and (max-width: 550) {
+@media (max-width: 550) {
     .grid figure {
         width: 50%;
     }   
@@ -1010,8 +1010,7 @@ figure.effect-chico:hover p {
         font-size: 90%;
     }
 }
-
-@media screen and (max-width: 550) {
+@media (max-width: 550) {
 
     .grid figure {
         width: 100%;
@@ -1089,7 +1088,7 @@ footer ul li a {
 }
 /*--media--*/
 
-@media (max-width:450px) {
+@media (max-width:450%) {
     .nav0{
         margin-left: 10%;
     }
@@ -1155,10 +1154,6 @@ footer ul li a {
     .row.blog {
         background: none;
     }
-    .grid{
-        grid-template-columns: ;
-    }
-
     .mb10{
         margin-bottom: 10px;
     
@@ -1174,7 +1169,8 @@ footer ul li a {
         padding-top: 10px;
         border-bottom: 1px solid;
         padding-bottom: 10px;
-    }}
+    }
     .dark-wrapper{
      margin-top: 10%;
     }
+}
