@@ -1000,8 +1000,7 @@ figure.effect-chico:hover p {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
-
-@media (max-width: 550) {
+@media screen and (max-width: 450px) {
     .grid figure {
         width: 50%;
     }   
@@ -1010,7 +1009,7 @@ figure.effect-chico:hover p {
         font-size: 90%;
     }
 }
-@media (max-width: 550) {
+@media screen and (max-width: 450px) {
 
     .grid figure {
         width: 100%;
@@ -1088,7 +1087,7 @@ footer ul li a {
 }
 /*--media--*/
 
-@media (max-width:450%) {
+@media (max-width:450px) {
     .nav0{
         margin-left: 10%;
     }
